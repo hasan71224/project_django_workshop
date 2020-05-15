@@ -1,0 +1,12 @@
+{% extends 'admin/base.html'%}
+{% load static %}
+{% block branding %}
+    <h1 id="head">
+        <img src="{% static 'logo.png' %}" width="80" height="70" alt="DIU Real Estate"> DIU Real Estate
+    </h1>
+{% endblock %}
+
+<!---custom css--->
+{% block extrastyle %}
+    <link rel="stylesheet" href="{% static 'css/custom_admin.css' %}">
+{% endblock %}
